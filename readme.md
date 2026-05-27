@@ -1,5 +1,7 @@
 # Naive Bayes, GDA, LDA and QDA From Scratch
 
+`https://ml-youtube-knauyufg5yt8hn6ukf3jmh.streamlit.app/`
+
 This project implements probabilistic classification algorithms from scratch and deploys them using Streamlit.
 
 ## Dataset
