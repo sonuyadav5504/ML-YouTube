@@ -36,3 +36,8 @@ naive-bayes-gda-lda-qda-streamlit/
 ├── app.py
 ├── requirements.txt
 └── README.md
+
+```
+## How to run this project?
+
+`python -m streamlit run app.py`

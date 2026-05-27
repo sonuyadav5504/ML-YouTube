@@ -6,6 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
 
 from sklearn.naive_bayes import GaussianNB
+
 from sklearn.discriminant_analysis import (
     LinearDiscriminantAnalysis,
     QuadraticDiscriminantAnalysis
@@ -26,7 +27,6 @@ def load_wine_dataset():
 
     df = pd.DataFrame(X, columns=data.feature_names)
     df["target"] = y
-    df["target_name"] = df["target"].apply(lambda i: data.target_names[i])
 
     return data, X, y, df
 
@@ -39,7 +39,6 @@ def train_all_models(test_size=0.2, random_state=42):
         y,
         test_size=test_size,
         random_state=random_state,
-        stratify=y
     )
 
     scaler = StandardScaler()

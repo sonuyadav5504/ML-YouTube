@@ -73,7 +73,7 @@ st.sidebar.header("Experiment Settings")
 test_size = st.sidebar.slider(
     "Test Size",
     min_value=0.1,
-    max_value=0.9,
+    max_value=0.5,
     value=0.2,
     step=0.05
 )

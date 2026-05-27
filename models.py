@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class GaussianNaiveBayesScratch:
     def __init__(self):
         self.classes = None
